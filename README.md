@@ -28,6 +28,10 @@ cd git-class
 ```
 #### Install the project dependencies
 ```bash
+mvn dependency:resolve
+```
+#### Build the project
+```bash
 mvn clean install
 ```
 #### Run the project
