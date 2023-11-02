@@ -1,4 +1,4 @@
-  services:
+services:
   mysql:
       container_name: mysql-container
       image: mysql
@@ -8,4 +8,4 @@
         - 3306:3306
       environment:
         MYSQL_DATABASE: store
-        MYSAL_ALLOW_EMPTY_PASSWORD: true
+        MYSQL_ALLOW_EMPTY_PASSWORD: true
